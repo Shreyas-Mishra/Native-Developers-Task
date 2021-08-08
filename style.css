@@ -1,0 +1,26 @@
+/* :root {
+    --navbar-height: 13%;
+}
+.navbar-menu{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.navbar-links {
+    width: 40rem;
+}
+.navbar-item{
+    
+} */
+
+@media screen and (min-width: 992px) {
+   .collapse{
+       width: 35rem;
+       display: flex;
+       justify-content: center;
+   }
+   .collapse ul{
+       width: 30rem;
+       justify-content: space-evenly;
+   }
+  }
