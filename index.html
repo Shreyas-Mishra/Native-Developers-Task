@@ -5,37 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>Heylead</title>
 </head>
 
 <body>
-    <!-- <header id="navbar">
-        <nav class="navbar-container container align-middle d-flex justify-content-end">
 
-            <a class="navbar-brand" href="#">
-                <img src="images/heylead.png" alt="">
-            </a>
-
-            <div class="navbar-menu">
-                <div class="navbar-links d-flex flex-row justify-content-evenly">
-                    <div class="navbar-item"><a class="navbar-link" href="#">Home</a></div>
-                    <div class="navbar-item"><a class="navbar-link" href="#">Services</a></div>
-                    <div class="navbar-item"><a class="navbar-link" href="#">About Us</a></div>
-                    <div class="navbar-item"><a class="navbar-link" href="#">Contact Us</a></div>
-                </div>
-            </div>
-            <div class="navbar-menu-2">
-                <div class="navbar-item-2" "><button class=" navbar-link" href="/contact">
-                    <strong>Login</strong></button>
-                </div>
-
-            </div>
-        </nav>
-    </header> -->
-    <header class="containe">
-        <nav class="navbar navbar-expand-lg navbar-light ">
+    <header class="nav-conatiner">
+        <nav class="navbar navbar-expand-lg ">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <img src="images/heylead.png" alt="">
@@ -45,32 +23,24 @@
                     <ul class="navbar-nav my-2 my-lg-0 navbar-nav-scroll d-flex justify-content-evenly"
                         style="--bs-scroll-height: 100px;">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active custom-underline" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Link
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
+                            <a class="nav-link custom-underline" href="#" tabindex="-1"
+                                aria-disabled="true">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Link</a>
+                            <a class="nav-link custom-underline" href="#" tabindex="-1" aria-disabled="true">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link custom-underline" href="#" tabindex="-1" aria-disabled="true">Contact
+                                Us</a>
                         </li>
                     </ul>
                 </div>
-                <div class="d-flex">
-                    <button class="btn btn-outline-success">Search</button>
+                <div class="d-flex nav-butt">
+                    <button class="btn nav-login-btn"><i class="fa fa-sign-in"
+                            aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;Login</button>
                 </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
                     aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
@@ -79,9 +49,43 @@
             </div>
         </nav>
     </header>
+    <div class="f-box">
+        <img src="images/Frame 1.png">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-12 heading">Smart Ideas </br>For Your Brand</br> Are Here.</div>
+                <div class="col-lg-7 col-12 sub-heading">HeyLead is all about lead generation and helping small</br>
+                    businesses grow through digital marketing services and</br> technologies.</div>
+                <div class="col-lg-6 col-12 btn-wrapper"><button class="btn start-btn">Get Started</button></div>
+            </div>
+        </div>
+    </div>
+    <div class="certified-wrapper d-flex justify-content-end">
+        <div class="certified-box d-flex overflow-hidden">
+            <div class="row">
+                <div class="col-lg-3 col-6 d-flex justify-content-center">
+                    <img class="cert-logo" src="images/cert-fb.png">
+                </div>
+                <div class="col-lg-3 col-6 d-flex justify-content-center">
+                    <img class="cert-logo" src="images/cert-bing.png">
+                </div>
+                <div class="col-lg-3 col-6 d-flex justify-content-center">
+                    <img class="cert-logo" src="images/cert-google.png">
+                </div>
+                <div class="col-lg-3 col-6 d-flex justify-content-center">
+                    <img class="cert-logo" src="images/cert-yahoo.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="service-wrapper">
+        <div class="services-box">
+            <img class="frame2" src="images/frame2.png" </div>
+        </div>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://kit.fontawesome.com/e0b8fdf55f.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
