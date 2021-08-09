@@ -60,9 +60,6 @@
     color: #E35C34;
     background-color: white;
 }
-
-
-
 /*   .f-box{
       width: 100%;
     height: 30rem;
@@ -117,18 +114,41 @@
       margin: auto;
       z-index: 2;
   }
-  .service-wrapper img{
+  .service-wrapper .frame2{
       width:100%;
       z-index: -1;
       position: absolute;
 
   }
   .service-wrapper{
-    height: 90rem;
-
+      height: 90rem;
   }
-
-
+  .s-heading{
+      position: relative;
+      margin-top: 6rem;
+      color: #012737;
+      font-weight: 700;
+      font-size: 3.5rem;
+  }
+  .s-heading::after{
+      content: "";
+      display: block;
+      width: 18%;
+      margin-top: -1.4rem;
+      /* padding-top: -3px; */
+      border-bottom: 6px solid #E35C34;
+      z-index: -1;
+  }
+.service-img img{
+    height: 10%;
+}
+.card{
+    width: 90%;
+}
+.service-grid-container{
+    overflow: hidden;
+    margin-left: 7rem;
+}
 
 
 
