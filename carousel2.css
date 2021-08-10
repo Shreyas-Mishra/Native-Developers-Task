@@ -1,0 +1,155 @@
+.Carousel-container {
+  margin: auto;
+  /* background-color: blue; */
+  display: flex;
+  height: 8rem;
+}
+.Carousel-btn-wrapper {
+  position: relative;
+  width: 5%;
+}
+.Carousel-btn {
+  font-size: 10px;
+  position: absolute;
+  color: rgb(107, 107, 107);
+  border-color: rgb(107, 107, 107);
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  transition: 0.3s;
+  top: 35%;
+  left: 25%;
+}
+.Carousel-btn:hover {
+  color: white;
+  background-color: rgb(107, 107, 107);
+}
+.Carousel-content {
+  /* background-color: orchid; */
+  padding: 2% 0%;
+  position: relative;
+  overflow: hidden;
+  width: 90%;
+}
+.Carousel-object {
+  height: 4rem;
+  width: 22%;
+  display: inline-block;
+  margin: 0;
+  position: absolute;
+  color: #012737;
+  border-radius: 15px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+.Carousel-object img{
+    color: #012737;
+    height: 50%;
+    margin-left: 12%;
+    margin-top: 5%;
+}
+.Carousel-text{
+    line-height: 3;
+    margin-left: 8%;
+    font-size: 20px;
+    font-weight: 500;
+}
+/* .Carousel-object:hover {
+  transform: translateX(100%);
+} */
+
+.object1 {
+  left: 0.3%;
+}
+.object2 {
+  left: 25.6%;
+}
+.object3 {
+  left: 50.9%;
+}
+.object4 {
+  left: 76.2%;
+}
+.object5 {
+  left: 101.5%;
+}
+.object6 {
+  left: -25%;
+}
+.slideL {
+  transition: 0.75s ease-in-out;
+  transform: translateX(-101%);
+}
+.slideR {
+  transition: 0.75s ease-in-out;
+  transform: translateX(100%);
+}
+
+@media screen and (max-width: 900px) {
+  .Carousel-object {
+    width: 50%;
+  }
+  .object1 {
+    left: 0%;
+  }
+  .object2 {
+    left: 50%;
+  }
+  .object3 {
+    left: 100%;
+  }
+  .object4 {
+    left: 150%;
+  }
+  .object5 {
+    left: 200%;
+  }
+  .object6 {
+    left: -50%;
+  }
+  .Carousel-content {
+    margin-top: 3%;
+    width: 80%;
+  }
+  .Carousel-btn-wrapper {
+    width: 10%;
+  }
+  .Carousel-btn {
+    width: 7vw;
+    height: 7vw;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .Carousel-object {
+    width: 100%;
+  }
+  .object1 {
+    left: 0%;
+  }
+  .object2 {
+    left: 100%;
+  }
+  .object3 {
+    left: 200%;
+  }
+  .object4 {
+    left: 300%;
+  }
+  .object5 {
+    left: 400%;
+  }
+  .object6 {
+    left: -100%;
+  }
+  .Carousel-content {
+    width: 70%;
+  }
+  .Carousel-btn-wrapper {
+    width: 15%;
+  }
+  .Carousel-btn {
+    width: 10vw;
+    height: 10vw;
+  }
+}
