@@ -248,6 +248,9 @@
 .team-col-3{
     margin-top: 11%;
 }
+.blog-container{
+    height: 53rem;
+}
 .blog-container .blog-img{
     position: absolute;
     z-index: -2;
@@ -264,7 +267,7 @@
 }
 .blog-card{
     border: none;
-    height: 33rem;
+    height: 100%;
     padding: 2.5rem;
 }
 .blog-card .card-title,.blog-card .card-text,.blog-card a{
@@ -275,8 +278,62 @@
     width: 90%;
     border-radius: 20px;
 }
+.subscribe-box img{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    margin-top: 8rem;
 
-
+}
+.subscribe-box{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.subscribe{
+    margin: auto;
+    width: 40%;
+    text-align: center;
+}
+.subscribe::after{
+    text-align: center;
+    width: 40%;
+    margin-top: -12.5%;
+    margin-left: 7%;
+}
+.subscribe-form{
+    margin: auto;
+    margin-top: 7rem;
+    width: 50%;
+    padding-bottom: 11rem;
+}
+.subscribe-form input{
+    border-radius: 50px !important;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; 
+    height: 5rem;
+    border: none;
+    margin-left: 1rem;
+}
+.subscribe-form .btn{
+    z-index: 5;
+    position: absolute;
+    right: 1rem;
+    height:3rem;
+    top: 1rem;
+    width: 10rem;
+    border-radius: 50px !important;
+    border: 2px solid #E35C34;
+    background-color: #E35C34;
+    color: #FEF9F6;
+}
+.subscribe-subtext{
+    color: grey;
+    margin: auto;
+    margin-top: 4rem;
+    width: 35%;
+    text-align: center;
+}
 
 
 
@@ -344,4 +401,47 @@
        .clients-box{
            margin-left: 10%;
        }
+       .team-card img{
+           width: 8.5rem;
+       }
+       .team-col-1{
+           margin-top: 5rem;
+       }
+       .team-col-2{
+        margin-top: 0rem;
+        }
+        .team-col-3{
+            margin-top: 0rem;
+        }
+        .team-col-4{
+            margin-top: -6rem;
+        }
+    .team-card{
+        margin-top: 0rem;
+    }
+    .blog-container{
+        height: 100%;
+    }
+    .blog-card{
+        height: 90%;
+    }
+    .subscribe{
+        width: 80%;
+        font-size: 2rem;
+        /* line-height: 2; */
+    }
+    .subscribe::after{
+        display: none;
+    }
+    .subscribe-subtext{
+        width: 80%;
+    }
+    .subscribe-form{
+        width: 90%;
+    }
+    .subscribe-form .btn{
+        /* position: relative; */
+       top: 40%;
+       left: 30%;
+    }
    }
