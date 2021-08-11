@@ -19,7 +19,7 @@
 .custom-underline:active,
 .nav-item .active {
     text-decoration: none;
-    color: #012737;
+    color: #013d57;
     font-weight: bold;
 }
 .nav-item .active::after{
@@ -71,7 +71,7 @@
       /* height: 100%; */
   }
   .heading{
-      color: #012737;
+      color: #013d57;
       margin-top: 7.5rem;
       font-weight: 700;
       font-size: 3.5rem;
@@ -129,7 +129,7 @@
   .s-heading{
       margin-top: 2rem;
       position: absolute;
-      color: #012737;
+      color: #013d57;
       font-weight: 700;
       font-size: 3.5rem;
   }
@@ -153,7 +153,7 @@
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; 
 }
 .card-title{
-    color: #012737;
+    color: #013d57;
     font-weight: 700;
 }
 .card-text{
@@ -179,7 +179,7 @@
     padding-top: 3rem;
     margin-left: 9rem;
     margin-top: 14rem;
-    color: #012737;
+    color: #013d57;
     font-weight: 700;
     font-size: 2.5rem;
 }
@@ -200,7 +200,7 @@
 .clients-box{
     padding-top: 4rem;
     margin-left: 9rem;
-    color: #012737;
+    color: #013d57;
     font-weight: 700;
     font-size: 2.5rem;
     height: 10rem;
@@ -334,21 +334,44 @@
     width: 35%;
     text-align: center;
 }
+.footer{
+    background-color: #ffede2;
+}
+.about-company{
+    width: 45%;
+    padding-right: 18rem;
+    color: grey;
+}
+.socials i{
+    text-align: center;border: 2px solid #E35C34;
+    border-radius: 50px;
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    color: #013d57;
+}
+.footer-list li{
+    list-style-type: none;
+    margin-left: -2rem;
+    margin-top: 1rem;
+}
+.links a{
+    color: grey;
+    text-decoration: none;
+    font-weight: 500;
+}
+.location p{
+    color: grey;
+    text-decoration: none;
+    font-weight: 500;
+}
+.location .fa ,.location .fas{
+    color: #013d57;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-  @media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) {
     .collapse{
         width: 35rem;
         display: flex;
@@ -375,47 +398,47 @@
     .column-3{
         margin-top: -2%}
    }
-   @media screen and (max-width:992px) {
-       .f-box img{
-           display: none;
-       }
-       .f-box{
-           background-color: #FFF2EC;
-       }
-       .f-box{
-           text-align: center;
-       }
-       .certified-box img{
-           width: 50%;
-       }
-       .service-grid-container {
+@media screen and (max-width:992px) {
+    .f-box img{
+        display: none;
+    }
+    .f-box{
+        background-color: #FFF2EC;
+    }
+    .f-box{
+        text-align: center;
+    }
+    .certified-box img{
+        width: 50%;
+    }
+    .service-grid-container {
+    margin-left: 2rem;
+    }
+    .part-heading{
         margin-left: 2rem;
-        }
-        .part-heading{
-            margin-left: 2rem;
-            margin-top: 3rem;
-        }
-        .partner-box{
-            height: 11rem;
-        }
-       .clients-box{
-           margin-left: 10%;
-       }
-       .team-card img{
-           width: 8.5rem;
-       }
-       .team-col-1{
-           margin-top: 5rem;
-       }
-       .team-col-2{
+        margin-top: 3rem;
+    }
+    .partner-box{
+        height: 11rem;
+    }
+    .clients-box{
+        margin-left: 10%;
+    }
+    .team-card img{
+        width: 8.5rem;
+    }
+    .team-col-1{
+        margin-top: 5rem;
+    }
+    .team-col-2{
+    margin-top: 0rem;
+    }
+    .team-col-3{
         margin-top: 0rem;
-        }
-        .team-col-3{
-            margin-top: 0rem;
-        }
-        .team-col-4{
-            margin-top: -6rem;
-        }
+    }
+    .team-col-4{
+        margin-top: -6rem;
+    }
     .team-card{
         margin-top: 0rem;
     }
@@ -441,7 +464,14 @@
     }
     .subscribe-form .btn{
         /* position: relative; */
-       top: 40%;
-       left: 30%;
+        top: 40%;
+        left: 30%;
+    }
+    .about-company {
+        width: 100%;
+        padding-right: 0;
+    }
+    .links,.location{
+        text-align: center;
     }
    }
